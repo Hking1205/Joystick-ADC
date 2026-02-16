@@ -1,7 +1,7 @@
 Code was written for STM32F303re/STM32F3xx, but is also compatible with other STM32 Microcontrollers.
 <br>
 
-🎮 Analog Joystick (ADC Input Module)
+🎮 Analog Joystick (ADC Input Module)<br>
 This module provides 2-axis analog position sensing using potentiometers, making it ideal for robotics control systems, RC transmitters, and embedded human-machine interfaces.
 
 It outputs analog voltages proportional to stick position, which can be read using microcontroller ADCs such as those on STM32 devices.
@@ -24,9 +24,7 @@ Typical Center Voltage	~Vcc / 2<br>
 Interface	ADC + GPIO (button)<br>
 <br><br>
 
-📡 STM32 Integration
-<br>
-
+📡 STM32 Integration<br>
 Fully compatible with STM32 MCUs including:
 STM32F303RE, STM32F333xx
 <br>
@@ -38,8 +36,7 @@ VRy → ADC channel (e.g., PA1 / ADC1_IN2)<br>
 SW → Digital input with pull-up/down<br>
 <br><br>
 
-
-🧠 ADC Interpretation
+🧠 ADC Interpretation<br>
 Joystick outputs are read as normalized ADC values:<br>
 Left / Down → ~0–30%<br>
 Center → ~50%<br>
