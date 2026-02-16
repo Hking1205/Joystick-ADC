@@ -8,8 +8,7 @@ This module provides 2-axis analog position sensing using potentiometers, making
 It outputs analog voltages proportional to stick position, which can be read using microcontroller ADCs such as those on STM32 devices.
 <br>
 
-🔧 Key Features
-<br>
+🔧 Key Features<br>
 
 Dual-axis analog output (X and Y)
 
