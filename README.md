@@ -21,7 +21,7 @@ Smooth analog control for precise input
 Simple ADC-based integration
 <br>
 
-⚙️ Electrical Characteristics
+⚙️ Electrical Characteristics<br>
 Parameter	Value
 Supply Voltage	3.3V – 5V
 Output Type	Analog voltage (potentiometer divider)
