@@ -1,14 +1,15 @@
 Code was written for STM32F303re/STM32F3xx, but is also compatible with other STM32 Microcontrollers.
 <br>
+
 🎮 Analog Joystick (ADC Input Module)<br>
 This module provides 2-axis analog position sensing using potentiometers, making it ideal for robotics control systems, RC transmitters, and embedded human-machine interfaces.
 It outputs analog voltages proportional to stick position, which can be read using microcontroller ADCs such as those on STM32 devices.
 <br><br>
 🔧 Key Features<br>
-Dual-axis analog output (X and Y)
-Optional push-button (Z-axis switch)
-Compatible with 3.3V and 5V systems
-Smooth analog control for precise input
+Dual-axis analog output (X and Y)<br>
+Optional push-button (Z-axis switch)<br>
+Compatible with 3.3V and 5V systems<br>
+Smooth analog control for precise input<br>
 Simple ADC-based integration
 <br><br>
 ⚙️ Electrical Characteristics<br>
