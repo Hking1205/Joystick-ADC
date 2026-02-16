@@ -24,8 +24,8 @@ Interface	ADC + GPIO (button)
 Fully compatible with STM32 MCUs including:
 STM32F303RE, STM32F333xx
 <br>
-Any STM32 with ≥ 2 ADC channels
-Typical mapping:
+Any STM32 with ≥ 2 ADC channels<br>
+Typical mapping:<br>
 VRx → ADC channel (e.g., PA0 / ADC1_IN1)<br>
 VRy → ADC channel (e.g., PA1 / ADC1_IN2)<br>
 SW → Digital input with pull-up/down
