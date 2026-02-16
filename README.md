@@ -36,49 +36,39 @@ STM32F303RE, STM32F333xx
 Any STM32 with ≥ 2 ADC channels
 
 Typical mapping:
-VRx → ADC channel (e.g., PA0 / ADC1_IN1)
-VRy → ADC channel (e.g., PA1 / ADC1_IN2)
-SW → Digital input with pull-up/down
+VRx → ADC channel (e.g., PA0 / ADC1_IN1)<br>
+VRy → ADC channel (e.g., PA1 / ADC1_IN2)<br>
+SW → Digital input with pull-up/down<br>
 <br><br>
 
 
 🧠 ADC Interpretation
 <br>
-
-Joystick outputs are read as normalized ADC values:
-Left / Down → ~0–30%
-Center → ~50%
-Right / Up → ~70–100%
-Example (12-bit ADC):
-0 → full left/down
-~2048 → center
-4095 → full right/up
+Joystick outputs are read as normalized ADC values:<br>
+Left / Down → ~0–30%<br>
+Center → ~50%<br>
+Right / Up → ~70–100%<br>
+Example (12-bit ADC):<br>
+0 → full left/down<br>
+~2048 → center<br>
+4095 → full right/up<br>
 <br><br>
 
 🧪 Typical Use Cases
 <br>
 
-Drone remote controllers (throttle, roll, pitch)
-Robotic arm manual control
-Gamepad-style embedded interfaces
-Menu navigation on OLED/UIs
-Dual-stick RC transmitters
+Drone remote controllers (throttle, roll, pitch)<br>
+Robotic arm manual control<br>
+Gamepad-style embedded interfaces<br>
+Menu navigation on OLED/UIs<br>
+Dual-stick RC transmitters<br>
 <br><br>
 
 
 ⚠️ Notes
 <br>
+Use ADC calibration for accurate center detection<br>
 
-Use ADC calibration for accurate center detection
+Add small dead zone filtering (~±5%) to prevent jitter<br>
+Optional: apply moving average or low-pass filtering<br>
 
-Add small dead zone filtering (~±5%) to prevent jitter
-
-Optional: apply moving average or low-pass filtering
-
-If you want, I can also generate:
-
-STM32 HAL ADC driver (JoystickADC.c/h)
-
-Mapping to normalized float values (-1 to +1)
-
-Version tailored for your RC STM32Fxx controller repo 🎮🚁
