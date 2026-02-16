@@ -15,7 +15,7 @@ Optional push-button (Z-axis switch)
 Compatible with 3.3V and 5V systems
 Smooth analog control for precise input
 Simple ADC-based integration
-<br>
+<br><br>
 
 ⚙️ Electrical Characteristics<br>
 
@@ -25,7 +25,7 @@ Output Type	Analog voltage (potentiometer divider)<br>
 Axes	X, Y (+ optional push button)<br>
 Typical Center Voltage	~Vcc / 2<br>
 Interface	ADC + GPIO (button)<br>
-<br>
+<br><br>
 
 📡 STM32 Integration
 <br>
@@ -39,42 +39,33 @@ Typical mapping:
 VRx → ADC channel (e.g., PA0 / ADC1_IN1)
 VRy → ADC channel (e.g., PA1 / ADC1_IN2)
 SW → Digital input with pull-up/down
-<br>
+<br><br>
+
 
 🧠 ADC Interpretation
 <br>
 
 Joystick outputs are read as normalized ADC values:
-
 Left / Down → ~0–30%
-
 Center → ~50%
-
 Right / Up → ~70–100%
-
 Example (12-bit ADC):
-
 0 → full left/down
-
 ~2048 → center
-
 4095 → full right/up
-<br>
-<br>
+<br><br>
+
 🧪 Typical Use Cases
 <br>
 
 Drone remote controllers (throttle, roll, pitch)
-
 Robotic arm manual control
-
 Gamepad-style embedded interfaces
-
 Menu navigation on OLED/UIs
-
 Dual-stick RC transmitters
-<br>
-<br>
+<br><br>
+
+
 ⚠️ Notes
 <br>
 
