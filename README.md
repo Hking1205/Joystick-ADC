@@ -10,6 +10,7 @@ It outputs analog voltages proportional to stick position, which can be read usi
 
 🔧 Key Features
 <br>
+
 Dual-axis analog output (X and Y)
 
 Optional push-button (Z-axis switch)
@@ -20,6 +21,7 @@ Smooth analog control for precise input
 
 Simple ADC-based integration
 <br>
+
 ⚙️ Electrical Characteristics
 Parameter	Value
 Supply Voltage	3.3V – 5V
@@ -31,6 +33,7 @@ Interface	ADC + GPIO (button)
 <br>
 📡 STM32 Integration
 <br>
+
 Fully compatible with STM32 MCUs including:
 
 STM32F303RE
@@ -71,6 +74,7 @@ Example (12-bit ADC):
 <br>
 🧪 Typical Use Cases
 <br>
+
 Drone remote controllers (throttle, roll, pitch)
 
 Robotic arm manual control
