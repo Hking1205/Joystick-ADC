@@ -35,6 +35,7 @@ Joystick outputs are read as normalized ADC values:<br>
 Left / Down → ~0–30%<br>
 Center → ~50%<br>
 Right / Up → ~70–100%<br>
+
 Example (12-bit ADC):<br>
 0 → full left/down<br>
 ~2048 → center<br>
