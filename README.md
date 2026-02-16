@@ -17,7 +17,7 @@ Supply Voltage	3.3V – 5V<br>
 Output Type	Analog voltage (potentiometer divider)<br>
 Axes	X, Y (+ optional push button)<br>
 Typical Center Voltage	~Vcc / 2<br>
-Interface	ADC + GPIO (button)<br>
+Interface	ADC + GPIO (button)
 <br><br>
 📡 STM32 Integration<br>
 Fully compatible with STM32 MCUs including:
@@ -27,7 +27,7 @@ Any STM32 with ≥ 2 ADC channels
 Typical mapping:
 VRx → ADC channel (e.g., PA0 / ADC1_IN1)<br>
 VRy → ADC channel (e.g., PA1 / ADC1_IN2)<br>
-SW → Digital input with pull-up/down<br>
+SW → Digital input with pull-up/down
 <br><br>
 🧠 ADC Interpretation<br>
 Joystick outputs are read as normalized ADC values:<br>
@@ -37,14 +37,14 @@ Right / Up → ~70–100%<br>
 Example (12-bit ADC):<br>
 0 → full left/down<br>
 ~2048 → center<br>
-4095 → full right/up<br>
+4095 → full right/up
 <br><br>
 🧪 Typical Use Cases
 Drone remote controllers (throttle, roll, pitch)<br>
 Robotic arm manual control<br>
 Gamepad-style embedded interfaces<br>
 Menu navigation on OLED/UIs<br>
-Dual-stick RC transmitters<br>
+Dual-stick RC transmitters
 <br><br>
 ⚠️ Notes
 Use ADC calibration for accurate center detection<br>
