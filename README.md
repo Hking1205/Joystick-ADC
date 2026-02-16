@@ -48,7 +48,6 @@ Dual-stick RC transmitters
 <br><br>
 ⚠️ Notes
 Use ADC calibration for accurate center detection<br>
-
 Add small dead zone filtering (~±5%) to prevent jitter<br>
 Optional: apply moving average or low-pass filtering<br>
 
