@@ -48,9 +48,10 @@ VRy → ADC channel (e.g., PA1 / ADC1_IN2)
 SW → Digital input with pull-up/down
 
 <br>
-<br>
+
 🧠 ADC Interpretation
 <br>
+
 Joystick outputs are read as normalized ADC values:
 
 Left / Down → ~0–30%
@@ -83,6 +84,7 @@ Dual-stick RC transmitters
 <br>
 ⚠️ Notes
 <br>
+
 Use ADC calibration for accurate center detection
 
 Add small dead zone filtering (~±5%) to prevent jitter
